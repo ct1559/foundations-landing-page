@@ -1,0 +1,88 @@
+body {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.header,
+.welcome-section {
+  background-color: #1f2937;
+}
+
+.header {
+  display: flex;
+}
+
+.logo {
+  color: #f9faf8;
+  font-size: 24px;
+  font-weight: 700;
+  margin-left: 170px;
+  padding: 10px;
+}
+
+.header-link-container {
+  display: flex;
+  margin-left: auto;
+  margin-right: 170px;
+  align-items: center;
+}
+
+.header-link {
+  color: #e5e7eb;
+  font-size: 18px;
+  text-decoration: none;
+  padding: 10px;
+}
+
+.main-content {
+}
+
+.welcome-section {
+  display: flex;
+  padding: 100px;
+  gap: 20px;
+}
+
+.welcome-intro h1 {
+  color: #f9faf8;
+  font-size: 48px;
+  margin-bottom: 5px;
+}
+
+.welcome-intro p {
+  color: #e5e7eb;
+  font-size: 18px;
+  margin-top: 5px;
+}
+
+.welcome-intro {
+  flex-wrap: wrap;
+  flex: 1;
+  padding: 10px;
+  margin-left: 70px;
+}
+
+.welcome-image {
+  color: #f9faf8;
+  flex: 1;
+  display: flex;
+  background-color: #adadad;
+  margin-right: 70px;
+  margin-top: 40px;
+  justify-content: center;
+  align-items: center;
+}
+
+.button {
+  text-decoration: none;
+  color: #f9faf8;
+  display: flex;
+  background-color: #3882f6;
+  width: 100px;
+  padding: 10px;
+  border-radius: 5px;
+  justify-content: center;
+  align-items: center;
+}
