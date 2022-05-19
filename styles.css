@@ -86,3 +86,46 @@ body {
   justify-content: center;
   align-items: center;
 }
+
+.random-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 100px;
+}
+
+.random-info h2 {
+  font-size: 36px;
+  font-weight: 700;
+  padding: 10px;
+  color: #1f2937;
+}
+
+.info-box-container {
+  display: flex;
+  justify-content: center;
+  margin-left: 250px;
+  margin-right: 250px;
+  gap: 30px;
+  flex-shrink: 0;
+}
+
+.info-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.info-image {
+  width: 120px;
+  height: 120px;
+  border: 5px solid #3882f6;
+  border-radius: 10px;
+}
+
+.info-text {
+  margin-top: 10px;
+  width: 150px;
+  text-align: center;
+}
